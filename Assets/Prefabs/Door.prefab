@@ -151,7 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   openDuration: 6
   speed: 5
-  bottom: -1
+  bottom: -0.98
 --- !u!1 &6974508274805851634
 GameObject:
   m_ObjectHideFlags: 0
@@ -177,7 +177,7 @@ Transform:
   m_GameObject: {fileID: 6974508274805851634}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 3.14, z: 0}
-  m_LocalScale: {x: 3.3, y: 6.169531, z: 17.780647}
+  m_LocalScale: {x: 3.3, y: 6.169531, z: 17.336132}
   m_Children:
   - {fileID: 6963686085021736034}
   m_Father: {fileID: 8085080581703477523}
