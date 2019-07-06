@@ -30,6 +30,7 @@ public class Inventory : MonoBehaviour
     public bool AddItem(string item) {
         if (this.CanAdd()) {
             this.items.Add(item);
+            DisplayInventory.Single.SetItems(items);
             Debug.Log("ADDED");
             return true;
         }

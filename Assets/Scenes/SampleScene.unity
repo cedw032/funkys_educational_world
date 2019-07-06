@@ -20,7 +20,7 @@ RenderSettings:
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
-  m_AmbientSkyColor: {r: 0.84599996, g: 0.84599996, b: 0.84599996, a: 1}
+  m_AmbientSkyColor: {r: 1, g: 1, b: 1, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 2
@@ -32,7 +32,7 @@ RenderSettings:
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
-  m_DefaultReflectionMode: 0
+  m_DefaultReflectionMode: 1
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
@@ -3021,10 +3021,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   icon: {fileID: 1551627758}
-  border: {fileID: 0}
+  border: {fileID: 560645864}
   item: 
   isSelected: 0
-  sources: []
+  sources:
+  - {fileID: 21300000, guid: bd819bf82057d45d7992199753c7bebf, type: 3}
 --- !u!4 &432009116 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1233893396710668472, guid: 5b5942e42de4c413aae81443620fe151,
@@ -8886,10 +8887,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   icon: {fileID: 501896611}
-  border: {fileID: 0}
+  border: {fileID: 1537666887}
   item: 
   isSelected: 0
-  sources: []
+  sources:
+  - {fileID: 21300000, guid: bd819bf82057d45d7992199753c7bebf, type: 3}
 --- !u!1 &1410622754
 GameObject:
   m_ObjectHideFlags: 0
@@ -9065,10 +9067,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   icon: {fileID: 552741689}
-  border: {fileID: 0}
+  border: {fileID: 83069409}
   item: 
   isSelected: 0
-  sources: []
+  sources:
+  - {fileID: 21300000, guid: bd819bf82057d45d7992199753c7bebf, type: 3}
 --- !u!1 &1454751606
 GameObject:
   m_ObjectHideFlags: 0
@@ -13327,10 +13330,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   icon: {fileID: 1884273809}
-  border: {fileID: 0}
+  border: {fileID: 917452114}
   item: 
   isSelected: 0
-  sources: []
+  sources:
+  - {fileID: 21300000, guid: bd819bf82057d45d7992199753c7bebf, type: 3}
 --- !u!1 &2102467833
 GameObject:
   m_ObjectHideFlags: 0

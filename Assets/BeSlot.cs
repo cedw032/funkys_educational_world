@@ -23,11 +23,11 @@ public class BeSlot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        /*if (this.item != this.lastItem) {
+        if (this.item != this.lastItem) {
             border.enabled = this.isSelected;
 
             switch (item) {
-                case "":
+                case "Coin":
                     icon.sprite = sources[0];
                     break;
 
@@ -36,6 +36,6 @@ public class BeSlot : MonoBehaviour
                     break;
             }
 
-        }*/
+        }
     }
 }
