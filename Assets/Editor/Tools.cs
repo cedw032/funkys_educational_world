@@ -41,7 +41,6 @@ public class Tools : MonoBehaviour
             }
             catch(NullReferenceException exception) {
                 Debug.LogException(exception);
-                //Debug.LogError(exception.ToString());
             } 
         }
 
